@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/dell/Documents/figma%20project/contact.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./contact_files/contact.css">
+<style>
+    * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+    justify-content: center;
+}
+
+nav {
+	flex: 1;
+	text-align: center;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a:hover{
+    color: #fea9b2;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f0f;
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 80%;
+}
+p {
+	color: #555;
+}
+
+.container1 {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.menu-icon {
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+
+/* -------- media query for menu------- */
+
+@media only screen and (max-width: 800px) {
+	/* nav ul {
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background: #333;
+		width: 100%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+
+	nav ul li {
+		display: block;
+		margin-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	nav ul li a {
+		color: #fff;
+	} */
+
+    .navbar .logo img{
+        width: 125px;
+    }
+}
+/*  form */
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #fea3ac;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fea3ac;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style></head>
+
+<body>
+    <div class="header">
+        <div class="container1">
+            <div class="navbar">
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <img src="./About_files/logo.png" width="225px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <img src="./contact_files/Heading.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <img src="./contact_files/Group 23.png" width="900px" alt="">      
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="margin-top: 5px;">
+                <img src="./contact_files/Get in touch with us.png" style="filter:invert(1);" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quibusdam laborum cumque beatae nemo eius . ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quibusdam laborum cumque beatae nemo eius at repudiandae,</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quibusdam laborum cumque beatae nemo eius at repudiandae, neque dolorem eaque corrupti porro aut aliquam excepturi totam ex dolor magnam dicta.</p>
+            </div>
+            <div class="col">
+                <div class="container-form">
+                    <form>
+                      
+                      <input type="text" id="fname" name="firstname" placeholder="Your name">
+                      
+                      <input type="email" id="email" name="email" placeholder="Your email">
+                      
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col-1">
+                    <h3>Opening Hours</h3>
+
+                    <p>Monday  <span>/ 9:00 - 20:00</span></p>
+                    <p>Tuesday <span>/ 9:00 - 20:00</span></p>
+                    <p>Wednesday <span>/ 9:00 - 20:00</span></p>
+                    <p>Thursday <span>/ 9:00 - 20:00</span></p>
+                    <p>Friday <span>/ 9:00 - 20:00</span></p>
+                    <p>Saturday <span>/ 9:00 - 20:00</span></p>
+                    <p>Sunday <span>/ CLOSED</span></p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Contact Info</h3>
+
+                    <p>+38 899 4320 32</p>
+                    <p>hai@aletheme.com</p>
+                    <p>France,Paris,Lille de la Cite 1p</p>
+
+
+                  
+                </div>
+                <div class="footer-col-3">
+                    <h3>Instagram feed</h3>
+                    <ul>
+                        <img src="./contact_files/Rectangle 18.png" width="75px" alt="">
+                        <img src="./contact_files/Rectangle 19.png" width="75px" alt="">
+                        <img src="./contact_files/Rectangle 20.png" width="75px" alt="">
+                        <img src="./contact_files/Rectangle 21.png" width="75px" alt="">
+                        <img src="./contact_files/Rectangle 22.png" width="75px" alt="">
+                        <img src="./contact_files/Rectangle 18.png" width="75px" alt="">
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>   
+    <div class="footer-container2">
+        <div class="footer-row-2">        
+            <p class="copyright">Copyright 2020.Ale Theme for WordPress</p>
+        </div>
+    </div>
+    
+
+</body></html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./About_files/about.css">
+<style>
+    * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+    justify-content: center;
+}
+
+nav {
+	flex: 1;
+	text-align: center;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a:hover{
+    color: #fea9b2;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f0f;
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 80%;
+}
+p {
+	color: #555;
+}
+
+.container1 {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.menu-icon {
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+
+/* -------- media query for menu------- */
+
+@media only screen and (max-width: 800px) {
+	/* nav ul {
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background: #333;
+		width: 100%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+
+	nav ul li {
+		display: block;
+		margin-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	nav ul li a {
+		color: #fff;
+	} */
+
+    .navbar .logo img{
+        width: 125px;
+    }
+}
+
+</style></head>
+
+<body>
+    <div class="header">
+        <div class="container1">
+            <div class="navbar">
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <img src="./About_files/logo.png" width="225px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <img src="./About_files/Heading.png" alt="">
+    </div>
+    <!--  -->
+    <div class="team">
+        <img src="./About_files/About intro.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%;padding-bottom: 20px;" alt="">
+    </div>
+    <!--  -->
+    
+    <!-- coo -->
+    <div class="container-3" style="background-color: #fea9b2; min-height: 400px; align-content:center; display:flex; flex-wrap:wrap;">
+        <div class="container">
+            <div class="row">
+                <div class="col"><img src="./About_files/cherry 2.png" alt=""><p style="color: #e4e1b4;">9393</p><br><p style="color: #fff;">Cherry smoothie</p></div>
+                <div class="col"><img src="./About_files/apple 2.png" alt=""><p style="color: #e4e1b4;">9393</p><br><p style="color: #fff;">Cherry smoothie</p></div>
+                <div class="col"><img src="./About_files/pineapple 2.png" alt=""><p style="color: #e4e1b4;">9393</p><br><p style="color: #fff;">Cherry smoothie</p></div>
+                <div class="col"><img src="./About_files/banana (1) 2.png" alt=""><p style="color: #e4e1b4;">9393</p><br><p style="color: #fff;">Cherry smoothie</p></div>
+            </div>
+        </div>
+    </div>
+<!-- sdfffffffff -->
+
+  
+  
+  
+
+    <div class="team">
+        <img src="./About_files/Team.png" style="display: block;margin-left: auto;margin-right: auto;width: 50%;padding-bottom: 20px;" alt="">
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col-1">
+                    <h3>Opening Hours</h3>
+
+                    <p>Monday  <span>/ 9:00 - 20:00</span></p>
+                    <p>Tuesday <span>/ 9:00 - 20:00</span></p>
+                    <p>Wednesday <span>/ 9:00 - 20:00</span></p>
+                    <p>Thursday <span>/ 9:00 - 20:00</span></p>
+                    <p>Friday <span>/ 9:00 - 20:00</span></p>
+                    <p>Saturday <span>/ 9:00 - 20:00</span></p>
+                    <p>Sunday <span>/ CLOSED</span></p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Contact Info</h3>
+
+                    <p>+38 899 4320 32</p>
+                    <p>hai@aletheme.com</p>
+                    <p>France,Paris,Lille de la Cite 1p</p>
+
+
+                  
+                </div>
+                <div class="footer-col-3">
+                    <h3>Instagram feed</h3>
+                    <ul>
+                        <img src="./About_files/Rectangle 18.png" width="75px" alt="">
+                        <img src="./About_files/Rectangle 19.png" width="75px" alt="">
+                        <img src="./About_files/Rectangle 20.png" width="75px" alt="">
+                        <img src="./About_files/Rectangle 21.png" width="75px" alt="">
+                        <img src="./About_files/Rectangle 22.png" width="75px" alt="">
+                        <img src="./About_files/Rectangle 18.png" width="75px" alt="">
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>   
+    <div class="footer-container2">
+        <div class="footer-row-2">        
+            <p class="copyright">Copyright 2020.Ale Theme for WordPress</p>
+        </div>
+    </div>
+    
+
+</body></html>
